@@ -1,7 +1,8 @@
 fun main(){
     var a = "akirachix"
     println(a[0].toString() + a[2] + a[3])
-    len()
+    var f = len()
+    println(f)
     structure("lona",54)
     confirm()
 
@@ -11,10 +12,10 @@ fun structure(n:String,age:Int){
     println(text)
 
 }
-fun len(){
+fun len():Int{
     var b = "Terrific Tuesday"
     var c = b.length
-    println(c)
+    return c
 
 }
 fun confirm(){
